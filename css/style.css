@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 10px 5px;
+    background: linear-gradient(#3a3a3a, #000000, #3a3a3a);
+    color: #ffffff;
+}
+.startSreen{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3rem;
+   
+}
+.startSreen #resultBlock{
+    margin-top: 50px;
+}
+.startSreen .stop, .startSreen #resultBlock, .startSreen .winAndLose{
+    display: none;
+}
+.startSreen .play{
+    cursor: pointer;
+}
+.startSreen .play, .startSreen .stop{
+    border: 3px solid #ffffff;
+    padding: 10px 40px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.startSreen .play:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
